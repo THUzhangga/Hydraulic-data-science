@@ -12075,14 +12075,33 @@ source: <a href="https://madnight.github.io/githut/#/pull_requests/2019/4">https
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span> <span class="c1"># 将数5分配给a, a是一个对象</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 <span class="n">a</span> <span class="o">=</span> <span class="s1">&#39;five&#39;</span> <span class="c1">#将字符串&#39;five&#39;分配给a</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>5
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -12097,7 +12116,7 @@ source: <a href="https://madnight.github.io/githut/#/pull_requests/2019/4">https
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">14</span>
@@ -12117,6 +12136,8 @@ source: <a href="https://madnight.github.io/githut/#/pull_requests/2019/4">https
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x % y =&#39;</span><span class="p">,</span> <span class="n">x</span><span class="o">%</span><span class="k">y</span>) # Output: x % y = 2
 <span class="c1"># 乘方 (x^y)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x ** y =&#39;</span><span class="p">,</span> <span class="n">x</span><span class="o">**</span><span class="n">y</span><span class="p">)</span> <span class="c1"># Output: x ** y = 38416</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="mi">1000</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12140,6 +12161,7 @@ x / y = 3.5
 x // y = 3
 x % y = 2
 x ** y = 38416
+10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831652624386837205668069376
 </pre>
 </div>
 </div>
@@ -12158,7 +12180,7 @@ x ** y = 38416
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">inputString</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;请输入:&#39;</span><span class="p">)</span>
@@ -12179,8 +12201,8 @@ x ** y = 38416
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>请输入:hello, world
-输入的是: hello, world
+<pre>请输入:123
+输入的是: 123
 </pre>
 </div>
 </div>
@@ -12199,36 +12221,16 @@ x ** y = 38416
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 这是一个注释</span>
-<span class="sd">&quot;&quot;&quot;这是</span>
-<span class="sd">一个</span>
-<span class="sd">多行注释&quot;&quot;&quot;</span>
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">这是一个多行注释</span>
+<span class="sd">&#39;&#39;&#39;</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[11]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;这是\n一个\n多行注释&#39;</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -12398,7 +12400,7 @@ num_new的类型: &lt;class &#39;float&#39;&gt;
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 用[]括起来</span>
@@ -12409,6 +12411,7 @@ num_new的类型: &lt;class &#39;float&#39;&gt;
 <span class="c1"># 混合数组</span>
 <span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;Hello&quot;</span><span class="p">,</span> <span class="mf">3.4</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">my_list</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -12426,6 +12429,7 @@ num_new的类型: &lt;class &#39;float&#39;&gt;
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[1, &#39;Hello&#39;, 3.4]
+3
 </pre>
 </div>
 </div>
@@ -12598,7 +12602,7 @@ Polish
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 可以用多种引号</span>
@@ -12630,12 +12634,12 @@ Polish
 <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello
-Hello
-Hello
-Hello, welcome to
-           the world of Python
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-cyan-intense-fg ansi-bold">  File </span><span class="ansi-green-intense-fg ansi-bold">&#34;&lt;ipython-input-12-659694b0c071&gt;&#34;</span><span class="ansi-cyan-intense-fg ansi-bold">, line </span><span class="ansi-green-intense-fg ansi-bold">15</span>
+<span class="ansi-yellow-intense-fg ansi-bold">    print（1）</span>
+<span class="ansi-white-intense-fg ansi-bold">           ^</span>
+<span class="ansi-red-intense-fg ansi-bold">SyntaxError</span><span class="ansi-red-intense-fg ansi-bold">:</span> invalid character in identifier
 </pre>
 </div>
 </div>
@@ -12712,7 +12716,7 @@ s+t =  python prgram
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 集合元素具有：无序性、互异性、确定性</span>
@@ -12754,6 +12758,39 @@ s+t =  python prgram
 {1, 2, 3, 4}
 {1, 2, 3, 4, 5}
 {1, 2, 3, 5}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="nb">list</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
+<span class="n">a</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[1, 2, 3, 4]
 </pre>
 </div>
 </div>
@@ -13014,6 +13051,41 @@ John
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>The sum is 28
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">sum</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">):</span>
+    <span class="nb">sum</span> <span class="o">+=</span> <span class="n">i</span>
+    <span class="c1"># sum = sum + i</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">sum</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>44
 </pre>
 </div>
 </div>
@@ -13520,10 +13592,10 @@ Hello
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[85]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Animal</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Animal</span><span class="p">():</span>
     <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Animal is running...&#39;</span><span class="p">)</span>
     <span class="k">def</span> <span class="nf">eat</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
